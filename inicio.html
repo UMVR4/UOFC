@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra y Venta de Componentes de PC</title>
+    <!-- Vinculando Bootstrap desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vinculando archivo CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">UMVRAOFCAPE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Comprar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vender</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center text-white bg-primary py-5">
+        <h1>Bienvenido al mejor catalogo de PC'S</h1>
+        <p>Compra y vende componentes de PC al mejor precio</p>
+        <a href="#comprar" class="btn btn-light btn-lg">Ver Componentes</a>
+    </div>
+
+    <!-- Sección de productos -->
+    <div id="comprar" class="container my-5">
+        <h2 class="text-center mb-4">Componentes de PC en Venta</h2>
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.asus.com/media/Odin/websites/global/ProductLine/20200819052724.png" class="img" alt="Componente 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Placa base ASUS</h5>
+                        <p class="card-text">Placa base de alta calidad para tu PC. Ideal para gaming.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://grupodecme.com/cdn/shop/files/ac3dfaa8-9d47-40cd-9951-014baa6f601c.jpg?v=1732326465" class="card-img-top" alt="Componente 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarjeta gráfica NVIDIA</h5>
+                        <p class="card-text">Tarjeta gráfica potente para gaming y trabajos gráficos pesados.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/81e9uOASMWL.jpg" class="card-img-top" alt="Componente 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Memoria RAM Corsair</h5>
+                        <p class="card-text">Memoria RAM de alta velocidad para un rendimiento excepcional.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 UMVRAOFCAPE. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
